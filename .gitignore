@@ -358,6 +358,23 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+# --- PMT / CAD & large assets (usually should NOT be versioned) ---
+*.dwg
+*.dxf
+*.ifc
+*.nwd
+*.nwc
+*.nwf
+
+# --- Visual Studio / build output (safety, even if already present) ---
+.vs/
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.user
+*.suo
+*.cache
+*.log
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
