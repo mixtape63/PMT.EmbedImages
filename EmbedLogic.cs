@@ -8,12 +8,13 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
+
 using Autodesk.AutoCAD.ApplicationServices;
 using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.Geometry;
 using Autodesk.AutoCAD.Runtime;
-
+using ThreadingTimer = System.Threading.Timer;
 using AcadApp = Autodesk.AutoCAD.ApplicationServices.Application;
 
 namespace PMT.EmbedImages
